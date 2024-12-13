@@ -9,13 +9,13 @@ const CompletedWorks = () => {
   ];
 
   return (
-    <section className="py-[48px] mb-12 bg-white" id="photo">
+    <section className="py-[48px] mb-12" id="photo">
       <div
         className="container mx-auto text-center px-4"
         style={{ maxWidth: "1320px" }}
       >
         {/* Заголовок */}
-        <h2 className="text-[38px] font-bold text-center mb-12">
+        <h2 className="text-[38px] text-white font-bold text-center mb-12">
           Выполненные работы
         </h2>
 

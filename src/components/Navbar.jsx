@@ -4,30 +4,30 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white w-full font-sans">
-      <div className="flex items-center justify-between p-4 bg-[#FCFAF8]">
+    <header className="w-full font-sans">
+      <div className="flex items-center justify-between p-4">
         {/* Navigation for large screens */}
         <nav className="hidden lg:flex justify-center space-x-8 w-full">
-          <a href="#products" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
+          <a href="#products" className="text-[18px] text-white font-bold hover:text-[#134D37] transition">
             Продукты
           </a>
-          <a href="#process" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
+          <a href="#process" className="text-[18px] text-white font-bold hover:text-[#134D37] transition">
             Процесс работы
           </a>
-          <a href="#photo" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
+          <a href="#photo" className="text-[18px] text-white font-bold hover:text-[#134D37] transition">
             Портфолио
           </a>
-          <a href="#about" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
+          <a href="#about" className="text-[18px] text-white font-bold hover:text-[#134D37] transition">
             О нас
           </a>
-          <a href="#contacts" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
+          <a href="#contacts" className="text-[18px] text-white font-bold hover:text-[#134D37] transition">
             Контакты
           </a>
         </nav>
 
         {/* Hamburger Menu */}
         <button
-          className="lg:hidden text-gray-700"
+          className="lg:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg
@@ -55,7 +55,7 @@ const Navbar = () => {
 
         {/* Contact Info */}
         <div className="hidden lg:flex items-center space-x-4">
-          <div className="flex items-center text-gray-700">
+          <div className="flex items-center text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 mr-1"
@@ -72,7 +72,7 @@ const Navbar = () => {
             </svg>
             г. Астана
           </div>
-          <div className="flex items-center text-gray-700 text-[22px] font-bold">
+          <div className="flex items-center text-white text-[22px] font-bold">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 mr-1"

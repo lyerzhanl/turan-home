@@ -38,7 +38,7 @@ const HowWeWork = () => {
         </div>
 
         {/* Текстовая часть */}
-        <div className="lg:w-1/2 p-6 md:p-12 bg-[#D2B48C]">
+        <div className="lg:w-1/2 p-6 md:p-12">
           <h2 className="text-[38px] text-white font-bold mb-16 lg:ml-[15%]">
             Как мы работаем
           </h2>

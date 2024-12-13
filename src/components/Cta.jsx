@@ -10,7 +10,7 @@ const CostEstimateForm = () => {
       }}
     >
       <div
-        className="container mx-auto bg-white p-8 shadow-lg w-full flex flex-col items-center"
+        className="container mx-auto bg-[#e6dacf] p-8 shadow-lg w-full flex flex-col items-center"
         style={{ maxWidth: "85%" }}
       >
         {/* Заголовок */}
@@ -39,7 +39,7 @@ const CostEstimateForm = () => {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
+                className="w-full border bg-[#faf6f2] border-gray-300 p-3 focus:outline-none focus:ring-2 "
                 required
               />
             </div>
@@ -55,7 +55,7 @@ const CostEstimateForm = () => {
                 type="tel"
                 id="phone"
                 name="phone"
-                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
+                className="w-full border bg-[#faf6f2] border-gray-300 p-3 focus:outline-none focus:ring-2 "
                 required
               />
             </div>

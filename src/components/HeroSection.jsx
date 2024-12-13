@@ -1,14 +1,14 @@
 const HeroSection = () => {
   return (
-    <section className="bg-white">
+    <section>
       {/* Desktop Layout */}
       <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start p-4 md:p-8 relative" style={{ maxWidth: '1320px' }}>
         {/* Text Section */}
         <div className="text-center md:text-left lg:h-[100vh] flex flex-col items-center justify-center md:w-1/2 space-y-4">
-          <h1 className="text-2xl md:text-[38px] mb-2 font-bold" style={{lineHeight: "110%"}}>
+          <h1 className="text-2xl text-white md:text-[38px] mb-2 font-bold" style={{lineHeight: "110%"}}>
             МЕБЕЛЬНОЕ ПРОИЗВОДСТВО Turan Home
           </h1>
-          <p className="text-gray-600 md:text-[20px] w-full">
+          <p className="text-white md:text-[20px] w-full">
             Наша гарантия на все изделия подтверждает нашу<br />уверенность в
             качестве каждого продукта.
           </p>
@@ -17,7 +17,7 @@ const HeroSection = () => {
               <a href="#contacts">Оставить заявку</a>
             </button>
             <button
-              className="px-10 py-5 text-[19px] font-bold border-2 border-[#D2B48C] text-[#D2B48C] hover:bg-[#D2B48C] hover:text-white transition"
+              className="px-10 py-5 text-[19px] font-bold border-2 border-[#134D37] text-[#134D37] hover:bg-[#134D37] hover:text-white transition"
               onClick={() => window.open('/portfolio.pdf', '_blank')}
             >
               Получить каталог

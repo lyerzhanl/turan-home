@@ -24,10 +24,10 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-28 bg-white">
+    <section className="py-28 bg-[#A47763]">
       <div className="container mx-auto text-center flex flex-col items-center" style={{ maxWidth: "1320px" }}>
         {/* Заголовок */}
-        <h2 className="text-[38px] font-bold mb-[80px]">Почему выбирают нас</h2>
+        <h2 className="text-[38px] font-bold text-white mb-[80px]">Почему выбирают нас</h2>
 
         {/* Сетка преимуществ */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-3/4 md:w-auto">
@@ -37,13 +37,13 @@ const WhyChooseUs = () => {
               className="flex flex-col items-center text-center"
             >
               {/* Иконка */}
-              <div className="text-4xl mb-4">{feature.icon}</div>
+              <div className="text-4xl text-white mb-4">{feature.icon}</div>
 
               {/* Заголовок */}
-              <h3 className="text-[22px] font-semibold mb-2">{feature.title}</h3>
+              <h3 className="text-[22px] text-white font-semibold mb-2">{feature.title}</h3>
 
               {/* Описание */}
-              <p className="text-gray-600">{feature.description}</p>
+              <p className="text-white">{feature.description}</p>
             </div>
           ))}
         </div>

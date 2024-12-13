@@ -7,16 +7,16 @@ const ContactSection = () => {
       >
         {/* Левая часть - Контакты и карта */}
         <div className="md:w-[90%] px-4 md:px-0 md:mt-0">
-          <h2 className="text-[30px] font-bold mb-4">Контакты</h2>
-          <p className="text-[17px] text-gray-600 mb-4">
+          <h2 className="text-[30px] text-white font-bold mb-4">Контакты</h2>
+          <p className="text-[17px] text-white mb-4">
             Вы можете связаться с нами любым удобным способом
           </p>
           <address className="not-italic mb-4">
-            <p className="text-[17px] text-gray-700">
+            <p className="text-[17px] text-white">
               г. Астана, Улица Кажымукан, 12а, Бизнес-центр Lasalle corporation
             </p>
-            <p className="text-[17px] text-gray-700">+7 (707) 650-18-88</p>
-            <p className="text-[17px] text-gray-700">turanhomeast@gmail.com</p>
+            <p className="text-[17px] text-white">+7 (707) 650-18-88</p>
+            <p className="text-[17px] text-white">turanhomeast@gmail.com</p>
           </address>
           {/* Карта */}
           <div className="w-full h-64 bg-gray-200">
@@ -31,14 +31,14 @@ const ContactSection = () => {
 
         {/* Вертикальная линия */}
         <div
-          className="hidden md:block bg-[#134D37] opacity-10"
+          className="hidden md:block bg-white opacity-10"
           style={{ width: "2px", height: "100%" }}
         ></div>
 
         {/* Правая часть - Форма обратного звонка */}
         <div className="md:w-[70%] px-4 py-4 md:px-0 md:py-0">
-          <h2 className="text-2xl font-bold mb-4">Заказать звонок</h2>
-          <p className="text-gray-600 mb-6">
+          <h2 className="text-2xl text-white font-bold mb-4">Заказать звонок</h2>
+          <p className="text-white mb-6">
             Введите данные для заказа обратного звонка
           </p>
           <form
@@ -51,7 +51,7 @@ const ContactSection = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block font-medium text-gray-700 mb-2"
+                  className="block font-medium text-white mb-2"
                 >
                   <span className="text-[#FF0000]">*</span> Имя
                 </label>
@@ -59,7 +59,7 @@ const ContactSection = () => {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
+                  className="w-full border bg-[#faf6f2] border-gray-300 p-2 focus:outline-none focus:ring-2 "
                   required
                 />
               </div>
@@ -67,7 +67,7 @@ const ContactSection = () => {
               <div>
                 <label
                   htmlFor="phone"
-                  className="block font-medium text-gray-700 mb-2"
+                  className="block font-medium text-white mb-2"
                 >
                   <span className="text-[#FF0000]">*</span> Телефон
                 </label>
@@ -75,7 +75,7 @@ const ContactSection = () => {
                   type="tel"
                   id="phone"
                   name="phone"
-                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
+                  className="w-full border bg-[#faf6f2] border-gray-300 p-2 focus:outline-none focus:ring-2 "
                   required
                 />
               </div>
@@ -83,7 +83,7 @@ const ContactSection = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block font-medium text-gray-700 mb-2"
+                  className="block font-medium text-white mb-2"
                 >
                   <span className="text-[#FF0000]">*</span> E-Mail
                 </label>
@@ -91,7 +91,7 @@ const ContactSection = () => {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
+                  className="w-full border bg-[#faf6f2] border-gray-300 p-2 focus:outline-none focus:ring-2 "
                   required
                 />
               </div>
@@ -107,7 +107,7 @@ const ContactSection = () => {
               />
               <label
                 htmlFor="agreement"
-                className="ml-2 text-gray-700"
+                className="ml-2 text-white"
               >
                 <span className="text-[#FF0000]">*</span> Я согласен на обработку моих{" "}
                 <a href="#" className="text-[#134D37] hover:underline">
