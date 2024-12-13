@@ -1,6 +1,6 @@
 const AboutCompany = () => {
   return (
-    <section className="py-12 bg-[#FCFAF8] h-auto md:h-[80vh] lg:h-[120vh] flex items-center justify-center" id="about">
+    <section className="py-12 bg-[#D2B48C] h-auto md:h-[80vh] lg:h-[120vh] flex items-center justify-center" id="about">
       <div
         className="relative flex items-center w-full px-4 md:px-0"
         style={{ maxWidth: "1320px", margin: "0 auto", height: "90%" }}

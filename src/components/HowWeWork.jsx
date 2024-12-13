@@ -38,32 +38,32 @@ const HowWeWork = () => {
         </div>
 
         {/* Текстовая часть */}
-        <div className="lg:w-1/2 p-6 md:p-12 bg-[#FCFAF8]">
-          <h2 className="text-[38px] font-bold mb-16 lg:ml-[15%]">
+        <div className="lg:w-1/2 p-6 md:p-12 bg-[#D2B48C]">
+          <h2 className="text-[38px] text-white font-bold mb-16 lg:ml-[15%]">
             Как мы работаем
           </h2>
           <div className="space-y-6 lg:ml-[15%]">
             {steps.map((step) => (
               <div
                 key={step.id}
-                className="flex items-start mb-10 w-[90%] group"
+                className="flex items-start mb-10 w-[90%]"
               >
                 <div
-                  className="min-w-[60px] min-h-[60px] flex items-center justify-center border-[#134D37] opacity-60 text-[#134D37] text-[21px] border-2 font-bold mr-[30px] group-hover:text-white group-hover:bg-[#D2B48C] group-hover:border-[#D2B48C]"
+                  className="min-w-[60px] min-h-[60px] flex items-center justify-center border-white opacity-60 text-white text-[21px] border-2 font-bold mr-[30px]"
                   style={{ lineHeight: "119%" }}
                 >
                   {step.id}
                 </div>
                 <div>
-                  <h3 className="text-[26px] font-semibold">{step.title}</h3>
-                  <p className="text-gray-600">{step.description}</p>
+                  <h3 className="text-[26px] text-white font-semibold">{step.title}</h3>
+                  <p className="text-white">{step.description}</p>
                 </div>
               </div>
             ))}
           </div>
           {/* Кнопка */}
           <div className="mt-16 lg:ml-[15%]">
-            <button className="px-[50px] py-[20px] bg-[#134D37] text-white font-bold text-[19px] hover:bg-[#D2B48C] transition">
+            <button className="px-[50px] py-[20px] bg-[#134D37] text-white font-bold text-[19px]">
               <a href="#contacts">Оставить заявку</a>
             </button>
           </div>

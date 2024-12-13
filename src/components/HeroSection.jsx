@@ -6,7 +6,7 @@ const HeroSection = () => {
         {/* Text Section */}
         <div className="text-center md:text-left lg:h-[100vh] flex flex-col items-center justify-center md:w-1/2 space-y-4">
           <h1 className="text-2xl md:text-[38px] mb-2 font-bold" style={{lineHeight: "110%"}}>
-            Быстрое изготовление и доставка мебели
+            МЕБЕЛЬНОЕ ПРОИЗВОДСТВО Turan Home
           </h1>
           <p className="text-gray-600 md:text-[20px] w-full">
             Наша гарантия на все изделия подтверждает нашу<br />уверенность в

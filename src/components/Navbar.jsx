@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between p-4 max-w-screen-xl mx-auto" style={{ maxWidth: '1320px' }}>
         {/* Logo */}
         <div className="text-xl font-bold">
-          <img src="/img/logo.png" className="w-[60px] h-[60px]" />
+          <img src="/img/logo.png" alt="Turan Home" className="w-[60px] h-[60px]" />
         </div>
 
         {/* Contact Info */}
