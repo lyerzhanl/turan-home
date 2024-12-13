@@ -33,14 +33,14 @@ const HowWeWork = () => {
           <img
             src="/img/11.jpg"
             alt="Как мы работаем"
-            className="w-full h-min md:h-full"
+            className="w-full h-80 md:h-full object-cover"
           />
         </div>
 
         {/* Текстовая часть */}
         <div className="lg:w-1/2 p-6 md:p-12">
           <h2 className="text-[38px] text-white font-bold mb-16 lg:ml-[15%]">
-            Как мы работаем
+          Как мы работаем
           </h2>
           <div className="space-y-6 lg:ml-[15%]">
             {steps.map((step) => (
