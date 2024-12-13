@@ -8,19 +8,19 @@ const Navbar = () => {
       <div className="flex items-center justify-between p-4 bg-[#FCFAF8]">
         {/* Navigation for large screens */}
         <nav className="hidden lg:flex justify-center space-x-8 w-full">
-          <a href="#products" className="text-[18px] text-black font-bold">
+          <a href="#products" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
             Продукты
           </a>
-          <a href="#process" className="text-[18px] text-black font-bold">
+          <a href="#process" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
             Процесс работы
           </a>
-          <a href="#photo" className="text-[18px] text-black font-bold">
+          <a href="#photo" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
             Портфолио
           </a>
-          <a href="#about" className="text-[18px] text-black font-bold">
+          <a href="#about" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
             О нас
           </a>
-          <a href="#contacts" className="text-[18px] text-black font-bold">
+          <a href="#contacts" className="text-[18px] text-black font-bold hover:text-[#134D37] transition">
             Контакты
           </a>
         </nav>

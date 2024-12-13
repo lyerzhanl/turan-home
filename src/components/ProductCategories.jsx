@@ -18,14 +18,14 @@ const ProductCategories = () => {
           {categories.map((category) => (
             <div
               key={category.id}
-              className="bg-white border border-[rgba(47, 47, 47, 0.3)] hover:border-[#d4b19a] py-10 px-6 flex flex-col items-center"
+              className="bg-white border border-[rgba(47, 47, 47, 0.3)] hover:border-[#134D37] py-10 px-6 flex flex-col items-center"
             >
               {/* Иконка */}
               <div className="text-6xl mb-6">{category.icon}</div>
               {/* Название категории */}
               <h3 className="text-[22px] font-bold mb-6">{category.title}</h3>
               {/* Кнопка */}
-              <button className="py-[25px] px-[20px] w-full border-[#d4b19a] text-[#000] font-bold border-2 transition"
+              <button className="py-[25px] px-[20px] w-full border-[#134D37] text-[#000] font-bold border-2 transition"
                       onClick={() => window.open('/portfolio.pdf', '_blank')}>
                 Получить каталог
               </button>

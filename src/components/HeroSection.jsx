@@ -13,11 +13,11 @@ const HeroSection = () => {
             качестве каждого продукта.
           </p>
           <div className="flex flex-col w-full lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4 justify-center lg:justify-start">
-            <button className="px-10 text-[19px] font-bold py-5 bg-[#c59676] text-white hover:bg-[#c59676] transition">
+            <button className="px-10 text-[19px] font-bold py-5 bg-[#134D37] text-white hover:bg-[#134D37] transition">
               <a href="#contacts">Оставить заявку</a>
             </button>
             <button
-              className="px-10 py-5 text-[19px] font-bold border-2 border-[#c59676] text-[#c59676] hover:bg-[#c59676] hover:text-white transition"
+              className="px-10 py-5 text-[19px] font-bold border-2 border-[#134D37] text-[#134D37] hover:bg-[#134D37] hover:text-white transition"
               onClick={() => window.open('/portfolio.pdf', '_blank')}
             >
               Получить каталог

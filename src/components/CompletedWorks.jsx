@@ -79,7 +79,7 @@ const CompletedWorks = () => {
         {/* Кнопка */}
         <div className="mt-12 text-center">
           <button
-            className="px-[50px] py-[20px] bg-[#c59676] text-white font-bold text-[19px] hover:bg-orange-500 transition"
+            className="px-[50px] py-[20px] bg-[#134D37] text-white font-bold text-[19px] transition"
           >
             <a href="#contacts">Оставить заявку</a>
           </button>

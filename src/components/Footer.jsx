@@ -18,21 +18,6 @@ const ContactSection = () => {
             <p className="text-[17px] text-gray-700">+7 (707) 650-18-88</p>
             <p className="text-[17px] text-gray-700">turanhomeast@gmail.com</p>
           </address>
-          {/* Соцсети */}
-          <div className="flex gap-4 mb-4">
-            <a
-              href="#"
-              className="w-8 h-8 bg-blue-600 flex items-center justify-center text-white"
-            >
-              ВК
-            </a>
-            <a
-              href="#"
-              className="w-8 h-8 bg-orange-500 flex items-center justify-center text-white"
-            >
-              ОК
-            </a>
-          </div>
           {/* Карта */}
           <div className="w-full h-64 bg-gray-200">
             <iframe
@@ -46,7 +31,7 @@ const ContactSection = () => {
 
         {/* Вертикальная линия */}
         <div
-          className="hidden md:block bg-[#c59676] opacity-10"
+          className="hidden md:block bg-[#134D37] opacity-10"
           style={{ width: "2px", height: "100%" }}
         ></div>
 
@@ -68,13 +53,13 @@ const ContactSection = () => {
                   htmlFor="name"
                   className="block font-medium text-gray-700 mb-2"
                 >
-                  * Имя
+                  <span className="text-[#FF0000]">*</span> Имя
                 </label>
                 <input
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
                   required
                 />
               </div>
@@ -84,13 +69,13 @@ const ContactSection = () => {
                   htmlFor="phone"
                   className="block font-medium text-gray-700 mb-2"
                 >
-                  * Телефон
+                  <span className="text-[#FF0000]">*</span> Телефон
                 </label>
                 <input
                   type="tel"
                   id="phone"
                   name="phone"
-                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
                   required
                 />
               </div>
@@ -100,13 +85,13 @@ const ContactSection = () => {
                   htmlFor="email"
                   className="block font-medium text-gray-700 mb-2"
                 >
-                  * E-Mail
+                  <span className="text-[#FF0000]">*</span> E-Mail
                 </label>
                 <input
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                  className="w-full border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
                   required
                 />
               </div>
@@ -124,8 +109,8 @@ const ContactSection = () => {
                 htmlFor="agreement"
                 className="ml-2 text-gray-700"
               >
-                * Я согласен на обработку моих{" "}
-                <a href="#" className="text-[#c59676] hover:underline">
+                <span className="text-[#FF0000]">*</span> Я согласен на обработку моих{" "}
+                <a href="#" className="text-[#134D37] hover:underline">
                   персональных данных
                 </a>
               </label>
@@ -134,7 +119,7 @@ const ContactSection = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="px-[40px] py-[15px] bg-[#c59676] text-white font-bold text-[19px] hover:bg-orange-500 transition"
+                className="px-[40px] py-[15px] bg-[#134D37] text-white font-bold text-[19px] transition"
               >
                 Оставить заявку
               </button>

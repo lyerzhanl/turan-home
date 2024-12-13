@@ -39,7 +39,7 @@ const CostEstimateForm = () => {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-[#c59676]"
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
                 required
               />
             </div>
@@ -55,7 +55,7 @@ const CostEstimateForm = () => {
                 type="tel"
                 id="phone"
                 name="phone"
-                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-[#c59676]"
+                className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-[#134D37]"
                 required
               />
             </div>
@@ -65,7 +65,7 @@ const CostEstimateForm = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="w-full md:w-1/2 px-6 py-3 bg-[#c59676] text-white font-bold hover:bg-orange-500 transition"
+              className="w-full md:w-1/2 px-6 py-3 bg-[#134D37] text-white font-bold hover:bg-orange-500 transition"
             >
               Заказать
             </button>
@@ -83,7 +83,7 @@ const CostEstimateForm = () => {
             <label htmlFor="agreement" className="ml-2 text-gray-700">
               <span className="text-[#FF0000]">*</span> Я согласен на обработку
               моих{" "}
-              <a href="#" className="text-[#c59676] hover:underline">
+              <a href="#" className="text-[#134D37] hover:underline">
                 персональных данных
               </a>
             </label>

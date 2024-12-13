@@ -49,7 +49,7 @@ const HowWeWork = () => {
                 className="flex items-start mb-10 w-[90%]"
               >
                 <div
-                  className="min-w-[60px] min-h-[60px] flex items-center justify-center border-[#c59676] opacity-60 text-[#c59676] text-[21px] border-2 font-bold mr-[30px]"
+                  className="min-w-[60px] min-h-[60px] flex items-center justify-center border-[#134D37] opacity-60 text-[#134D37] text-[21px] border-2 font-bold mr-[30px]"
                   style={{ lineHeight: "119%" }}
                 >
                   {step.id}
@@ -63,7 +63,7 @@ const HowWeWork = () => {
           </div>
           {/* Кнопка */}
           <div className="mt-16 lg:ml-[15%]">
-            <button className="px-[50px] py-[20px] bg-[#c59676] text-white font-bold text-[19px] hover:bg-orange-500 transition">
+            <button className="px-[50px] py-[20px] bg-[#134D37] text-white font-bold text-[19px] transition">
               <a href="#contacts">Оставить заявку</a>
             </button>
           </div>
