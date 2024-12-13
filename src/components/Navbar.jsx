@@ -94,32 +94,32 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-white p-4">
+        <div className="lg:hidden p-4">
           <nav className="space-y-4">
-            <a href="#products" className="block text-gray-700">
+            <a href="#products" className="block text-white">
               Продукты
             </a>
-            <a href="#process" className="block text-gray-700">
+            <a href="#process" className="block text-white">
               Схема работы
             </a>
-            <a href="#photo" className="block text-gray-700">
+            <a href="#photo" className="block text-white">
               Фото
             </a>
-            <a href="#about" className="block text-gray-700">
+            <a href="#about" className="block text-white">
               О нас
             </a>
-            <a href="#faq" className="block text-gray-700">
+            <a href="#faq" className="block text-white">
               ЧаВо
             </a>
-            <a href="#reviews" className="block text-gray-700">
+            <a href="#reviews" className="block text-white">
               Отзывы
             </a>
-            <a href="#contacts" className="block text-gray-700">
+            <a href="#contacts" className="block text-white">
               Контакты, карты
             </a>
           </nav>
           <div className="mt-4">
-            <div className="flex items-center text-gray-700">
+            <div className="flex items-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 mr-1"
@@ -136,7 +136,7 @@ const Navbar = () => {
               </svg>
               г. Астана
             </div>
-            <div className="flex items-center text-gray-700">
+            <div className="flex items-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 mr-1"

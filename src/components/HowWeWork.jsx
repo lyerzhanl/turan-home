@@ -26,14 +26,14 @@ const steps = [
 
 const HowWeWork = () => {
   return (
-    <section className="py-12 h-[120%]" id="process">
+    <section className="py-12 md:h-[120%]" id="process">
       <div className="mx-auto flex flex-col lg:flex-row md:px-4 lg:px-0">
         {/* Изображение */}
-        <div className="lg:w-1/2 bg-gray-200 h-64 lg:h-auto">
+        <div className="lg:w-1/2 bg-gray-200 lg:h-auto">
           <img
             src="/img/11.jpg"
             alt="Как мы работаем"
-            className="w-full md:h-full"
+            className="w-full h-min md:h-full"
           />
         </div>
 
