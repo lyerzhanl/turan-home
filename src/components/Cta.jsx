@@ -65,7 +65,7 @@ const CostEstimateForm = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="w-full md:w-1/2 px-6 py-3 bg-[#134D37] text-white font-bold hover:bg-orange-500 transition"
+              className="w-full md:w-1/2 px-6 py-3 bg-[#134D37] text-white font-bold hover:bg-[#D2B48C] transition"
             >
               Заказать
             </button>

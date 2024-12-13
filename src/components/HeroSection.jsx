@@ -17,7 +17,7 @@ const HeroSection = () => {
               <a href="#contacts">Оставить заявку</a>
             </button>
             <button
-              className="px-10 py-5 text-[19px] font-bold border-2 border-[#134D37] text-[#134D37] hover:bg-[#134D37] hover:text-white transition"
+              className="px-10 py-5 text-[19px] font-bold border-2 border-[#D2B48C] text-[#D2B48C] hover:bg-[#D2B48C] hover:text-white transition"
               onClick={() => window.open('/portfolio.pdf', '_blank')}
             >
               Получить каталог

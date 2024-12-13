@@ -46,10 +46,10 @@ const HowWeWork = () => {
             {steps.map((step) => (
               <div
                 key={step.id}
-                className="flex items-start mb-10 w-[90%]"
+                className="flex items-start mb-10 w-[90%] group"
               >
                 <div
-                  className="min-w-[60px] min-h-[60px] flex items-center justify-center border-[#134D37] opacity-60 text-[#134D37] text-[21px] border-2 font-bold mr-[30px]"
+                  className="min-w-[60px] min-h-[60px] flex items-center justify-center border-[#134D37] opacity-60 text-[#134D37] text-[21px] border-2 font-bold mr-[30px] group-hover:text-white group-hover:bg-[#D2B48C] group-hover:border-[#D2B48C]"
                   style={{ lineHeight: "119%" }}
                 >
                   {step.id}
@@ -63,7 +63,7 @@ const HowWeWork = () => {
           </div>
           {/* Кнопка */}
           <div className="mt-16 lg:ml-[15%]">
-            <button className="px-[50px] py-[20px] bg-[#134D37] text-white font-bold text-[19px] transition">
+            <button className="px-[50px] py-[20px] bg-[#134D37] text-white font-bold text-[19px] hover:bg-[#D2B48C] transition">
               <a href="#contacts">Оставить заявку</a>
             </button>
           </div>

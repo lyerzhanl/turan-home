@@ -119,7 +119,7 @@ const ContactSection = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="px-[40px] py-[15px] bg-[#134D37] text-white font-bold text-[19px] transition"
+                className="px-[40px] py-[15px] bg-[#134D37] text-white font-bold text-[19px] hover:bg-[#D2B48C] transition"
               >
                 Оставить заявку
               </button>

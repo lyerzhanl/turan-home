@@ -18,7 +18,7 @@ const ProductCategories = () => {
           {categories.map((category) => (
             <div
               key={category.id}
-              className="bg-white border border-[rgba(47, 47, 47, 0.3)] hover:border-[#134D37] py-10 px-6 flex flex-col items-center"
+              className="bg-white border border-[rgba(47, 47, 47, 0.3)] border-2 hover:border-[#D2B48C] py-10 px-6 flex flex-col items-center"
             >
               {/* Иконка */}
               <div className="text-6xl mb-6">{category.icon}</div>
