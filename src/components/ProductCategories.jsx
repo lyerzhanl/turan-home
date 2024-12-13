@@ -9,7 +9,7 @@ const ProductCategories = () => {
   ];
 
   return (
-    <section className="py-12">
+    <section className="py-12" id="products">
       <div className="container mx-auto text-center" style={{ maxWidth: '1320px' }}>
         <h2 className="text-[38px] font-bold mb-8">
           Мебель любого дизайна и конфигурации
@@ -25,7 +25,8 @@ const ProductCategories = () => {
               {/* Название категории */}
               <h3 className="text-[22px] font-bold mb-6">{category.title}</h3>
               {/* Кнопка */}
-              <button className="py-[25px] px-[20px] w-full border-[#d4b19a] text-[#000] font-bold border-2 transition">
+              <button className="py-[25px] px-[20px] w-full border-[#d4b19a] text-[#000] font-bold border-2 transition"
+                      onClick={() => window.open('/portfolio.pdf', '_blank')}>
                 Получить каталог
               </button>
             </div>

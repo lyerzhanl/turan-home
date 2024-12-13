@@ -9,7 +9,7 @@ const CompletedWorks = () => {
   ];
 
   return (
-    <section className="py-[48px] mb-12 bg-white">
+    <section className="py-[48px] mb-12 bg-white" id="photo">
       <div
         className="container mx-auto text-center px-4"
         style={{ maxWidth: "1320px" }}
@@ -81,7 +81,7 @@ const CompletedWorks = () => {
           <button
             className="px-[50px] py-[20px] bg-[#c59676] text-white font-bold text-[19px] hover:bg-orange-500 transition"
           >
-            Оставить заявку
+            <a href="#contacts">Оставить заявку</a>
           </button>
         </div>
       </div>

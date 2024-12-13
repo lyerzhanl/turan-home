@@ -1,33 +1,32 @@
 const steps = [
   {
     id: 1,
-    title: "Заявка",
-    description:
-      "Вы оставляете заявку на нашем сайте или связываетесь любым удобным для Вас способом.",
+    title: "Консультация и замер обьекта",
+    description: "Обсуждаем пожелания, подбираем материалы и замеряем объект.",
   },
   {
     id: 2,
-    title: "Выезд специалиста",
+    title: "Дизайн",
     description:
-      "Мастер выезжает на объект для замеров и консультирует по всем вопросам.",
+      "Разрабатываем эскизы или 3D-модели для утверждения.",
   },
   {
     id: 3,
-    title: "Оценка работ",
+    title: "Производство",
     description:
-      "Разработка эскиза, согласование стоимости и сроков выполнения.",
+      "Точное воплощение проекта нашими мастерами.",
   },
   {
     id: 4,
-    title: "Выполнение работ",
+    title: "Сборка и установка",
     description:
-      "Изготавливаем изделия, выполняем все работы на объекте.",
+      "Оперативно доставляем и устанавливаем мебель у клиента.",
   },
 ];
 
 const HowWeWork = () => {
   return (
-    <section className="py-12 h-[120%]">
+    <section className="py-12 h-[120%]" id="process">
       <div className="mx-auto flex flex-col lg:flex-row md:px-4 lg:px-0">
         {/* Изображение */}
         <div className="lg:w-1/2 bg-gray-200 h-64 lg:h-auto">
@@ -65,7 +64,7 @@ const HowWeWork = () => {
           {/* Кнопка */}
           <div className="mt-16 lg:ml-[15%]">
             <button className="px-[50px] py-[20px] bg-[#c59676] text-white font-bold text-[19px] hover:bg-orange-500 transition">
-              Оставить заявку
+              <a href="#contacts">Оставить заявку</a>
             </button>
           </div>
         </div>

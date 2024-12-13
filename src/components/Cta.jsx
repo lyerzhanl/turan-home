@@ -1,12 +1,13 @@
 const CostEstimateForm = () => {
   return (
-    <section className="py-12 flex items-center md:h-[90vh]"
-             style={{
-               backgroundImage: "url('/img/29.jpg')",
-               backgroundRepeat: "no-repeat",
-               backgroundPosition: "center",
-               backgroundSize: "cover",
-             }}
+    <section
+      className="py-12 flex items-center md:h-[90vh]"
+      style={{
+        backgroundImage: "url('/img/29.jpg')",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
     >
       <div
         className="container mx-auto bg-white p-8 shadow-lg w-full flex flex-col items-center"
@@ -18,7 +19,13 @@ const CostEstimateForm = () => {
         </h2>
 
         {/* Форма */}
-        <form className="md:max-w-[70%]" style={{width: "100%"}}>
+        <form
+          className="md:max-w-[70%]"
+          style={{ width: "100%" }}
+          action="mailto:turanhomeast@gmail.com"
+          method="POST"
+          encType="text/plain"
+        >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             {/* Поле "Имя" */}
             <div>
@@ -73,11 +80,9 @@ const CostEstimateForm = () => {
               className="mt-1"
               required
             />
-            <label
-              htmlFor="agreement"
-              className="ml-2 text-gray-700"
-            >
-              <span className="text-[#FF0000]">*</span> Я согласен на обработку моих{" "}
+            <label htmlFor="agreement" className="ml-2 text-gray-700">
+              <span className="text-[#FF0000]">*</span> Я согласен на обработку
+              моих{" "}
               <a href="#" className="text-[#c59676] hover:underline">
                 персональных данных
               </a>

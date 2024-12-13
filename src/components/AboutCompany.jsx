@@ -1,6 +1,6 @@
 const AboutCompany = () => {
   return (
-    <section className="py-12 bg-[#FCFAF8] h-auto md:h-[80vh] lg:h-[120vh] flex items-center justify-center">
+    <section className="py-12 bg-[#FCFAF8] h-auto md:h-[80vh] lg:h-[120vh] flex items-center justify-center" id="about">
       <div
         className="relative flex items-center w-full px-4 md:px-0"
         style={{ maxWidth: "1320px", margin: "0 auto", height: "90%" }}
@@ -63,24 +63,19 @@ const AboutCompany = () => {
             className="text-[17px] text-gray-600 mb-4"
             style={{ lineHeight: "1.5" }}
           >
-            Наша компания вот уже более 5 лет работает на рынке услуг по
-            производству мебели. Мы работаем по индивидуальным эскизам и
-            предоставляем своим клиентам качественную, прочную и удобную мебель по
-            выгодным ценам.
+            Мы - TURAN HOME, команда профессионалов с 7-летним
+            опытом работы в сфере производства мебели. За эти годы
+            мы заслужили доверие наших клиентов, предлагая
+            стильные, функциональные и индивидуальные решения
+            для вашего дома или офиса.
           </p>
           <p
             className="text-[17px] text-gray-600 mb-4"
             style={{ lineHeight: "1.5" }}
           >
-            Почему вот уже 5 лет количество благодарных клиентов непрестанно
-            растет, как и наша репутация, а положительные отзывы о нас множатся?
-          </p>
-          <p
-            className="text-[17px] text-gray-600"
-            style={{ lineHeight: "1.5" }}
-          >
-            Мы гарантируем, что заказанная у нас мебель, украсит любой дом или
-            офис.
+            Наша цель — воплощать ваши идеи в реальность,
+            создавая мебель, которая сочетает комфорт, эстетику и
+            долговечность.
           </p>
         </div>
       </div>

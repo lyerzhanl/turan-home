@@ -12,22 +12,16 @@ const Navbar = () => {
             Продукты
           </a>
           <a href="#process" className="text-[18px] text-black font-bold">
-            Схема работы
+            Процесс работы
           </a>
           <a href="#photo" className="text-[18px] text-black font-bold">
-            Фото
+            Портфолио
           </a>
           <a href="#about" className="text-[18px] text-black font-bold">
             О нас
           </a>
-          <a href="#faq" className="text-[18px] text-black font-bold">
-            ЧаВо
-          </a>
-          <a href="#reviews" className="text-[18px] text-black font-bold">
-            Отзывы
-          </a>
           <a href="#contacts" className="text-[18px] text-black font-bold">
-            Контакты, карты
+            Контакты
           </a>
         </nav>
 
