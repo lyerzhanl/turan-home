@@ -6,7 +6,7 @@ const ContactSection = () => {
         style={{ maxWidth: "1320px" }}
       >
         {/* Левая часть - Контакты и карта */}
-        <div className="md:w-[90%] px-4 mt-16 md:px-0 md:mt-0">
+        <div className="md:w-[90%] px-4 md:px-0 md:mt-0">
           <h2 className="text-[30px] font-bold mb-4">Контакты</h2>
           <p className="text-[17px] text-gray-600 mb-4">
             Вы можете связаться с нами любым удобным способом
